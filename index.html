@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulir Survey</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- header -->
+      <header>
+        <h1>Build a survey form using HTML & CSS</h1>
+      </header>
+      <!-- End Header -->
+
+      <!-- Content -->
+      <main>
+        <form>
+          <label for="name" id="name">Name</label><br />
+          <input type="text" id="name" />
+        </form>
+        <form>
+          <label for="email" id="email">Email</label><br />
+          <input type="text" id="email" />
+        </form>
+        <form>
+          <label for="age" id="age">Age</label><br />
+          <input type="text" id="age" />
+        </form>
+        <form>
+          <label for="role" id="role">Which option best describes you?</label
+          ><br />
+          <select name="role" id="role">
+            <option value="student">Student</option>
+            <option value="internship">Internship</option>
+            <option value="professional">Professional</option>
+            <option value="others">Others</option>
+          </select>
+        </form>
+        <form>
+          <p>Would you recommend Bootcamp to a friend?</p>
+          <input type="radio" id="yes" name="question" value="yes" />
+          <label for="yes">Yes</label><br />
+          <input type="radio" id="no" name="question" value="no" />
+          <label for="no">No</label><br />
+          <input type="radio" id="maybe" name="question" value="maybe" />
+          <label for="maybe">Maybe</label><br />
+        </form>
+        <form action="">
+          <p>Languages and Frameworks known</p>
+          <input type="checkbox" name="" id="" />
+          <label for="">C++</label><br />
+          <input type="checkbox" name="" id="" />
+          <label for="">PHP</label><br />
+          <input type="checkbox" name="" id="" />
+          <label for="">Javascript</label><br />
+          <input type="checkbox" name="" id="" />
+          <label for="">Phyton</label><br />
+          <input type="checkbox" name="" id="" />
+          <label for="">ReactJS</label><br />
+          <input type="checkbox" name="" id="" />
+          <label for="">VueJS</label><br />
+          <input type="checkbox" name="" id="" />
+          <label for="">Laravel</label>
+        </form>
+        <form action="">
+          <label for="">Any comments or suggestions</label><br />
+          <textarea name="" id="" cols="30" rows="10"></textarea>
+        </form>
+        <button>Submit</button>
+      </main>
+      <!-- End Content -->
+
+      <!-- Footer -->
+      <footer>
+        <p></p>
+      </footer>
+      <!-- End Footer -->
+    </div>
+  </body>
+</html>
